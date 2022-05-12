@@ -5,6 +5,26 @@
   padding: 10px;
 }
 
+.nav-ul li a{
+  color: #fff;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.nav-ul{
+  padding: 5px;
+  margin: 0px;
+  background-color: skyblue;
+}
+
+.header{
+  position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    background-color: skyblue;
+}
+
 .footer{
   position: absolute;
     bottom: 0;
@@ -12,6 +32,26 @@
     width: 100%;
     background-color: skyblue;
 }
+
+.register{
+  margin-left: 30px;
+}
+
+.inputBox{
+  display: block;
+  margin: 25px;
+  padding: 7px;
+  width: 300px;
+  border: 1px solid skyblue
+ }
+ .appbutton{
+  margin: 25px;
+  padding: 10px;
+  width: 150px;
+  border: 1px solid;
+  background-color: skyblue;
+  cursor: pointer;
+ }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

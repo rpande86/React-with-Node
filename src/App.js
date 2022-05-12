@@ -1,8 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
 import Nav from './component/Nav';
+import SignUp from './component/SignUp';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Footer from './component/Footer';
+
 
 function App() {
   return (
@@ -15,6 +17,7 @@ function App() {
           <Route path="/update" element={<h1>Update Product component</h1>}></Route>
           <Route path="/logout" element={<h1>logout component</h1>}></Route>
           <Route path="/profile" element={<h1>Profile component</h1>}></Route>
+          <Route path="/signup" element={<SignUp />}></Route>
         </Routes>     
       </BrowserRouter>
       <Footer/>
